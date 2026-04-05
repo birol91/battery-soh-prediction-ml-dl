@@ -1,4 +1,4 @@
-# Battery SOH Prediction using ML and DL
+# Battery SOH Prediction — From Simulink Simulation to Real-World Transfer Learning
 
 End-to-end machine learning and deep learning pipeline for **State of Health (SOH)** estimation of Li-ion battery packs. Models are trained on simulated data (Battery A) and progressively adapted to real-world conditions (Battery B) through a 7-step transfer learning pipeline.
 
