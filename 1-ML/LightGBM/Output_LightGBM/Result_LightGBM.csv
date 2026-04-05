@@ -1,0 +1,15 @@
+Compare,MAE,RMSE,R2
+Baseline,0.7587,0.9243,0.971525
+Tuned,0.6958,0.9058,0.972653
+
+--- Baseline Model Overfitting Check ---
+Metric,Train,Test,Diff,Note
+MAE (%),0.2878,0.7587,+0.4709,OK
+RMSE (%),0.4588,0.9243,+0.4655,OK
+R2,0.993998,0.971525,+0.022473,WARNING
+
+--- Tuned Model Overfitting Check ---
+Metric,Train,Test,Diff,Note
+MAE (%),0.1051,0.6958,+0.5908,WARNING
+RMSE (%),0.1465,0.9058,+0.7592,WARNING
+R2,0.999388,0.972653,+0.026734,WARNING

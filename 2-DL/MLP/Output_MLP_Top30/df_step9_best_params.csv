@@ -1,0 +1,2 @@
+hidden_dim,dropout,lr
+256,0.2,0.005
